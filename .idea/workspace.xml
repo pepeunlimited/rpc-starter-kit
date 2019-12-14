@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a1e4a88c-dc40-49e6-b550-c4f666b3c047" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="go-starter-kit" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Go File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>Section</find>
+      <find>InsertSection</find>
+      <find>InsertSectionNode</find>
+      <find>orderAt</find>
+      <find>SelectRoo</find>
+      <find>delete</find>
+      <find>InsertCate</find>
+      <find>description</find>
+      <find>root</find>
+      <find>CreateCategory</find>
+      <find>LessThan</find>
+      <find>FindChildrensByParentId</find>
+      <find>GetCategories</find>
+      <find>GetCategoriesParams</find>
+      <find>CreateItem</find>
+      <find>go-starter-kit</find>
+      <find>go-start</find>
+      <find>namespace</find>
+      <find>bitbucket.com</find>
+      <find>eventbus</find>
+      <find>bitbucket.com/siimooo/eventbus&quot;</find>
+      <find>bitbucket.com/siimooo/pepeutil</find>
+      <find>exec</find>
+      <find>UpdateItemById</find>
+      <find>UNSIGNED</find>
+      <find>FindSectionItemsPaginationByCategoryId</find>
+      <find>FindAllPagination</find>
+      <find>wrappers</find>
+      <find>GetCateg</find>
+      <find>Error</find>
+    </findStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$</dir>
+    </dirStrings>
+  </component>
+  <component name="GOROOT" path="/usr/local/Cellar/go/1.13.4/libexec" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GoLibraries">
+    <option name="indexEntireGoPath" value="false" />
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/go-starter-kit.iml" />
+        <option value="$PROJECT_DIR$/.idea/misc.xml" />
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+        <option value="$PROJECT_DIR$/.idea/modules.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+    <option name="x" value="765" />
+    <option name="y" value="23" />
+    <option name="width" value="915" />
+    <option name="height" value="987" />
+  </component>
+  <component name="ProjectId" id="1Ul0jmmAdwjkEvX2aKcdWnVIpUS" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultGoTemplateProperty" value="Go File" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="go.gopath.indexing.explicitly.defined" value="true" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="go.sdk.automatically.set" value="true" />
+    <property name="go.tried.to.enable.integration.dep.integrator" value="true" />
+    <property name="go.vendoring.notification.had.been.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="go.vgo" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/deployments/staging" />
+      <recent name="$PROJECT_DIR$/internal/app/app1/repository" />
+      <recent name="$PROJECT_DIR$/deployments" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/configs" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/deployments/production" />
+      <recent name="$PROJECT_DIR$/deployments" />
+      <recent name="$PROJECT_DIR$/build/package/app1" />
+      <recent name="$PROJECT_DIR$/build/package/app1/wait-for-it" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Go Build.go build main.go">
+    <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
+      <module name="go-starter-kit" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <go_parameters value="-i" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/" />
+      <package value="github.com/pepeunlimited/grpc-starter-kit" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go-starter-kit" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/cmd/app1/main.go" />
+      <package value="bitbucket.com/siimooo/go-starter-kit" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestShoppingListService_CreateListRoot in bitbucket.com/siimooo/go-starter-kit-k8/internal/app/app1/server" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="go-starter-kit" />
+      <working_directory value="$PROJECT_DIR$/internal/app/app1/server" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="bitbucket.com/siimooo/go-starter-kit-k8/internal/app/app1/server" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
+      <pattern value="^TestShoppingListService_CreateListRoot$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestShoppingListService_CreateListRootNatsMock in bitbucket.com/siimooo/go-starter-kit-k8/internal/app/app1/server" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="go-starter-kit" />
+      <working_directory value="$PROJECT_DIR$/internal/app/app1/server" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="bitbucket.com/siimooo/go-starter-kit-k8/internal/app/app1/server" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
+      <pattern value="^TestShoppingListService_CreateListRootNatsMock$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestTodoServer_CreateTodo in bitbucket.com/siimooo/go-starter-kit-k8/internal/app/app1/server" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="go-starter-kit" />
+      <working_directory value="$PROJECT_DIR$/internal/app/app1/server" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="bitbucket.com/siimooo/go-starter-kit-k8/internal/app/app1/server" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
+      <pattern value="^TestTodoServer_CreateTodo$" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="GoTestRunConfiguration" factoryName="Go Test">
+      <module name="go-starter-kit" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <go_parameters value="-i" />
+      <framework value="gotest" />
+      <kind value="DIRECTORY" />
+      <package value="github.com/pepeunlimited/grpc-starter-kit" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <configuration name="srv_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="go-starter-kit" />
+      <working_directory value="$PROJECT_DIR$/internal/app/app1/server" />
+      <framework value="gotest" />
+      <kind value="FILE" />
+      <package value="bitbucket.com/siimooo/go-starter-kit-k8" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/internal/app/app1/server/srv_test.go" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Go Build.go build main.go" />
+        <item itemvalue="Go Test.TestTodoServer_CreateTodo in bitbucket.com/siimooo/go-starter-kit-k8/internal/app/app1/server" />
+        <item itemvalue="Go Test.TestShoppingListService_CreateListRootNatsMock in bitbucket.com/siimooo/go-starter-kit-k8/internal/app/app1/server" />
+        <item itemvalue="Go Test.srv_test.go" />
+        <item itemvalue="Go Test.TestShoppingListService_CreateListRoot in bitbucket.com/siimooo/go-starter-kit-k8/internal/app/app1/server" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
+  </component>
+  <component name="VgoProject">
+    <integration-enabled>true</integration-enabled>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="440" y="190" key="#GOROOT" timestamp="1575917125364">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="440" y="190" key="#GOROOT/0.0.1680.1050@0.0.1680.1050" timestamp="1575917125364" />
+    <state x="519" y="153" key="#TestTodoServer_CreateTodo_in_bitbucket.com/siimooo/go-starter-kit-k8/internal/app/app1/server" timestamp="1576350803089">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="519" y="153" key="#TestTodoServer_CreateTodo_in_bitbucket.com/siimooo/go-starter-kit-k8/internal/app/app1/server/0.0.1680.1050@0.0.1680.1050" timestamp="1576350803089" />
+    <state width="1638" height="487" key="GridCell.Tab.0.bottom" timestamp="1576352015841">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="487" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1576352015841" />
+    <state width="1638" height="487" key="GridCell.Tab.0.center" timestamp="1576352015838">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="487" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1576352015838" />
+    <state width="1638" height="487" key="GridCell.Tab.0.left" timestamp="1576352015836">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="487" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1576352015836" />
+    <state width="1638" height="487" key="GridCell.Tab.0.right" timestamp="1576352015840">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="487" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1576352015840" />
+    <state x="349" y="164" key="SettingsEditor" timestamp="1576349228264">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="349" y="164" key="SettingsEditor/0.0.1680.1050@0.0.1680.1050" timestamp="1576349228264" />
+    <state width="500" height="445" key="SwitcherDM" timestamp="1575968899242">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="500" height="445" key="SwitcherDM/0.0.1680.1050@0.0.1680.1050" timestamp="1575968899242" />
+    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup" timestamp="1575967112580">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1575967112580" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file:///usr/local/Cellar/go/1.12.2/libexec/src/database/sql/sql.go</url>
+          <line>3051</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/internal/app/app1/server/todo_server.go</url>
+          <line>2</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/go_starter_kit$TestCategoryMySQLRepository_FindAll_in_bitbucket_com_siimooo_go_starter_kit_internal_app_app1_repository.out" NAME="TestCategoryMySQLRepository_FindAll in bitbucket.com/siimooo/go-starter-kit/internal/app/app1/repository Coverage Results" MODIFIED="1556135955631" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+</project>

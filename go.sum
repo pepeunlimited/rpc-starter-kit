@@ -1,0 +1,15 @@
+github.com/dgrijalva/jwt-go v3.2.0+incompatible/go.mod h1:E3ru+11k8xSBh+hMPgOLZmtrrCbhqsmaPHjLKYnJCaQ=
+github.com/golang/protobuf v1.3.1 h1:YF8+flBXS5eO826T4nzqPrxfhQThhXl0YzfuUPu4SBg=
+github.com/golang/protobuf v1.3.1/go.mod h1:6lQm79b+lXiMfvg/cZm0SGofjICqVBUtrP5yJMmIC1U=
+github.com/golang/protobuf v1.3.2 h1:6nsPYzhq5kReh6QImI3k5qWzO4PEbvbIW2cwSfR/6xs=
+github.com/golang/protobuf v1.3.2/go.mod h1:6lQm79b+lXiMfvg/cZm0SGofjICqVBUtrP5yJMmIC1U=
+github.com/pepeunlimited/microservice-kit v0.0.0-20191210170159-5cadda36c9a8 h1:T8U7hpS02+SOPDmUEzablGoevxHKKAcJ9mKDGxrzcx4=
+github.com/pepeunlimited/microservice-kit v0.0.0-20191210170159-5cadda36c9a8/go.mod h1:40wd+99+zSd3O9hZFhhwzJXYhWpTTmfAofTTiXX6DCg=
+github.com/pepeunlimited/microservice-kit v0.0.0-20191212102325-e83f82f36d67 h1:botFtZhSBFTO/KmUkNjDu1YnQSy9xUCO3RtVLhSAr8I=
+github.com/pepeunlimited/microservice-kit v0.0.0-20191212102325-e83f82f36d67/go.mod h1:5kwxFdEY5MxV1nfivUGVpCj/5+hhbuCLZ9psWswm3Zo=
+github.com/pkg/errors v0.8.1 h1:iURUrRGxPUNPdy5/HRSm+Yj6okJ6UtLINN0Q9M4+h3I=
+github.com/pkg/errors v0.8.1/go.mod h1:bwawxfHBFNV+L2hUp1rHADufV3IMtnDRdf1r5NINEl0=
+github.com/twitchtv/twirp v5.7.0+incompatible h1:9NU0Pv7g90mqNkfUSSi7rP2EsKDtO9GYKzEiOfAplgA=
+github.com/twitchtv/twirp v5.7.0+incompatible/go.mod h1:RRJoFSAmTEh2weEqWtpPE3vFK5YBhA6bqp2l1kfCC5A=
+github.com/twitchtv/twirp v5.9.0+incompatible h1:KBCo4NYCpE9alO1HAEcgninDnw/0AhPT1rZnHkkSqi8=
+github.com/twitchtv/twirp v5.9.0+incompatible/go.mod h1:RRJoFSAmTEh2weEqWtpPE3vFK5YBhA6bqp2l1kfCC5A=

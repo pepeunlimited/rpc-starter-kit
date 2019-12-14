@@ -1,0 +1,52 @@
+syntax = "proto3";
+
+package pepeunlimited.todo;
+option go_package = "rpc";
+
+import "google/protobuf/empty.proto";
+import "google/protobuf/wrappers.proto";
+
+// https://github.com/protocolbuffers/protobuf/blob/master/src/google/protobuf/wrappers.proto
+
+service TodoService {
+
+    rpc CreateTodo(CreateTodoParams) returns (Todo);
+
+    rpc GetTodo(GetTodoParams)       returns (Todo);
+
+    rpc UpdateTodo(UpdateTodoParams) returns (Todo);
+
+    rpc DeleteTodo(DeleteTodoParams) returns (Todo);
+}
+
+// CreateTodo:Params
+message CreateTodoParams {
+    Todo todo          = 1; //required
+}
+
+// GetTodo:Params
+message GetTodoParams {
+    int64 id           = 1; //required
+}
+
+// UpdateTodo:Params
+message UpdateTodoParams {
+    int64 id                                = 1; //required
+    google.protobuf.StringValue name        = 2; //optional
+    google.protobuf.BoolValue   is_done     = 3; //optional
+    google.protobuf.BoolValue   is_deleted  = 4; //optional
+}
+
+// DeleteTodo:Params
+message DeleteTodoParams {
+    int64 id          = 1; //required
+}
+
+message Todo {
+    string name       = 1; //required
+    bool is_done      = 2; //required
+    string created_at = 3; //client won't change this
+    string updated_at = 4; //client won't change this
+    bool is_deleted   = 5; //required
+    int64 id          = 6; //required
+}

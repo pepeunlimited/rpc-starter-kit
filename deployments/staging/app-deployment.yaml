@@ -1,0 +1,41 @@
+kind: Deployment
+apiVersion: extensions/v1beta1
+metadata:
+  namespace: ingress-nginx
+  name: app
+  labels:
+    app: app
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: app
+  template:
+    metadata:
+      labels:
+        app: app
+    spec:
+      containers:
+        - env:
+            - name: MYSQL_DATABASE
+              value: shopping_list
+            - name: MYSQL_HOST
+              value: mysql
+            - name: MYSQL_PORT
+              value: "3306"
+            - name: MYSQL_ROOT_PASSWORD
+              value: root
+            - name: MYSQL_USER
+              value: root
+            - name: NATS_HOST
+              value: nats
+            - name: NATS_PORT
+              value: "4222"
+            - name: WAIT_HOSTS
+              value: mysql:3306
+          image: pepeunlimited/app1-k8:latest
+          name: app
+          ports:
+            - containerPort: 8080
+          resources: {}
+      restartPolicy: Always

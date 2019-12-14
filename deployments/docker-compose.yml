@@ -1,0 +1,40 @@
+# Docker Compose file Reference (https://docs.docker.com/compose/compose-file/)
+version: '3'
+# Define services
+services:
+  # App Service
+  app:
+    # Configuration for building the docker image for the service
+    image: pepeunlimited/app1:latest
+    ports:
+      - "8080:8080" # Forward the exposed port 8080 on the container to port 8080 on the host machine
+    depends_on:
+      - nats # This service depends on nats. Start that first.
+    environment: # Pass environment variables to the service
+      - MYSQL_ROOT_PASSWORD=root
+      - MYSQL_DATABASE=shopping_list
+      - MYSQL_USER=root
+      - MYSQL_HOST=mysql
+      - MYSQL_PORT=3306
+      - NATS_HOST=nats
+      - NATS_PORT=4222
+      - WAIT_HOSTS=mysql:3306
+  mysql:
+    image: "mysql:latest"
+    container_name: mysql
+    ports:
+      - "3306:3306"
+    environment:
+      - MYSQL_ROOT_PASSWORD=root
+    volumes:
+      - ../init/mysql/conf.d:/etc/mysql/conf.d:ro
+      - ../init/mysql/initdb.d:/docker-entrypoint-initdb.d:ro
+  # NATS
+  # NATS Service
+  nats:
+    hostname: nats-server
+    image: "nats:latest" # Use a public nats image to build the service
+    ports:
+      - "4222:4222"
+      - "6222:6222"
+      - "8222:8222"
