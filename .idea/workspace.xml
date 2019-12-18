@@ -3,6 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="a1e4a88c-dc40-49e6-b550-c4f666b3c047" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deployments/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/deployments/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,43 +21,6 @@
         <option value="Go File" />
       </list>
     </option>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>Section</find>
-      <find>InsertSection</find>
-      <find>InsertSectionNode</find>
-      <find>orderAt</find>
-      <find>SelectRoo</find>
-      <find>delete</find>
-      <find>InsertCate</find>
-      <find>description</find>
-      <find>root</find>
-      <find>CreateCategory</find>
-      <find>LessThan</find>
-      <find>FindChildrensByParentId</find>
-      <find>GetCategories</find>
-      <find>GetCategoriesParams</find>
-      <find>CreateItem</find>
-      <find>go-starter-kit</find>
-      <find>go-start</find>
-      <find>namespace</find>
-      <find>bitbucket.com</find>
-      <find>eventbus</find>
-      <find>bitbucket.com/siimooo/eventbus&quot;</find>
-      <find>bitbucket.com/siimooo/pepeutil</find>
-      <find>exec</find>
-      <find>UpdateItemById</find>
-      <find>UNSIGNED</find>
-      <find>FindSectionItemsPaginationByCategoryId</find>
-      <find>FindAllPagination</find>
-      <find>wrappers</find>
-      <find>GetCateg</find>
-      <find>Error</find>
-    </findStrings>
-    <dirStrings>
-      <dir>$PROJECT_DIR$</dir>
-    </dirStrings>
   </component>
   <component name="GOROOT" path="/usr/local/Cellar/go/1.13.4/libexec" />
   <component name="Git.Settings">
@@ -97,7 +63,7 @@
     <property name="go.sdk.automatically.set" value="true" />
     <property name="go.tried.to.enable.integration.dep.integrator" value="true" />
     <property name="go.vendoring.notification.had.been.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/deployments" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -106,11 +72,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/deployments" />
+      <recent name="$PROJECT_DIR$/rpc" />
       <recent name="$PROJECT_DIR$/deployments/staging" />
       <recent name="$PROJECT_DIR$/internal/app/app1/repository" />
-      <recent name="$PROJECT_DIR$/deployments" />
       <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/configs" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
@@ -273,22 +239,22 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="519" y="153" key="#TestTodoServer_CreateTodo_in_bitbucket.com/siimooo/go-starter-kit-k8/internal/app/app1/server/0.0.1680.1050@0.0.1680.1050" timestamp="1576350803089" />
-    <state width="1638" height="487" key="GridCell.Tab.0.bottom" timestamp="1576352015841">
+    <state width="1638" height="487" key="GridCell.Tab.0.bottom" timestamp="1576575609947">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="487" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1576352015841" />
-    <state width="1638" height="487" key="GridCell.Tab.0.center" timestamp="1576352015838">
+    <state width="1638" height="487" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1576575609947" />
+    <state width="1638" height="487" key="GridCell.Tab.0.center" timestamp="1576575609944">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="487" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1576352015838" />
-    <state width="1638" height="487" key="GridCell.Tab.0.left" timestamp="1576352015836">
+    <state width="1638" height="487" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1576575609944" />
+    <state width="1638" height="487" key="GridCell.Tab.0.left" timestamp="1576575609943">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="487" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1576352015836" />
-    <state width="1638" height="487" key="GridCell.Tab.0.right" timestamp="1576352015840">
+    <state width="1638" height="487" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1576575609943" />
+    <state width="1638" height="487" key="GridCell.Tab.0.right" timestamp="1576575609945">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="487" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1576352015840" />
+    <state width="1638" height="487" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1576575609945" />
     <state x="349" y="164" key="SettingsEditor" timestamp="1576349228264">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
@@ -297,6 +263,10 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state width="500" height="445" key="SwitcherDM/0.0.1680.1050@0.0.1680.1050" timestamp="1575968899242" />
+    <state x="100" y="100" width="1480" height="850" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1576581191498">
+      <screen x="0" y="23" width="1680" height="984" />
+    </state>
+    <state x="100" y="100" width="1480" height="850" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.23.1680.984@0.23.1680.984" timestamp="1576581191498" />
     <state x="505" y="233" width="670" height="676" key="search.everywhere.popup" timestamp="1575967112580">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>

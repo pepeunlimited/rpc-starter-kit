@@ -1,0 +1,38 @@
+kind: Deployment
+apiVersion: apps/v1
+metadata:
+  name: users
+  labels:
+    app: users
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: users
+  template:
+    metadata:
+      labels:
+        app: users
+    spec:
+      containers:
+        - env:
+            - name: MYSQL_DATABASE
+              value: users
+            - name: MYSQL_HOST
+              value: external-mysql.default.svc
+            - name: MYSQL_PORT
+              value: "3306"
+            - name: MYSQL_ROOT_PASSWORD
+              value: root
+            - name: MYSQL_USER
+              value: root
+            - name: NATS_HOST
+              value: nats
+            - name: NATS_PORT
+              value: "4222"
+          image: pepeunlimited/users:0.1
+          name: users
+          ports:
+            - containerPort: 8080
+          resources: {}
+      restartPolicy: Always
