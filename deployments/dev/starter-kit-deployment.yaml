@@ -1,18 +1,18 @@
 kind: Deployment
 apiVersion: apps/v1
 metadata:
-  name: users
+  name: todo
   labels:
-    app: users
+    app: todo
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: users
+      app: todo
   template:
     metadata:
       labels:
-        app: users
+        app: todo
     spec:
       containers:
         - env:
@@ -26,12 +26,8 @@ spec:
               value: root
             - name: MYSQL_USER
               value: root
-            - name: NATS_HOST
-              value: nats
-            - name: NATS_PORT
-              value: "4222"
-          image: pepeunlimited/users:0.1
-          name: users
+          image: pepeunlimited/todo:0.1
+          name: todo
           ports:
             - containerPort: 8080
           resources: {}

@@ -1,12 +1,11 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: app
-  namespace: ingress-nginx
+  name: todo
 spec:
   ports:
     - protocol: TCP
       targetPort: 8080
-      port: 8000
+      port: 80
   selector:
-    app: app
+    app: todo
