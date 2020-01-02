@@ -3,15 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="a1e4a88c-dc40-49e6-b550-c4f666b3c047" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deployments/dev/users-deployment.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/deployments/dev/starter-kit-deployment.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deployments/dev/users-ingress.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/deployments/dev/starter-kit-ingress.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deployments/dev/users-service.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/deployments/dev/starter-kit-service.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deployments/production/app-deployment.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/deployments/production/starter-kit-deployment.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deployments/production/app-ingress.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/deployments/production/starter-kit-ingress.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deployments/production/app-service.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/deployments/production/starter-kit-service.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deployments/staging/app-deployment.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/deployments/staging/starter-kit-deployment.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deployments/staging/app-ingress.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/deployments/staging/starter-kit-ingress.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deployments/staging/app-service.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/deployments/staging/starter-kit-service.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -268,10 +259,10 @@
       <screen x="0" y="23" width="1680" height="984" />
     </state>
     <state x="100" y="100" width="1480" height="850" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.23.1680.984@0.23.1680.984" timestamp="1576581191498" />
-    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup" timestamp="1575967112580">
+    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup" timestamp="1577955730810">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1575967112580" />
+    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1577955730810" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -280,11 +271,6 @@
           <url>file:///usr/local/Cellar/go/1.12.2/libexec/src/database/sql/sql.go</url>
           <line>3051</line>
           <option name="timeStamp" value="24" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
-          <url>file://$PROJECT_DIR$/internal/app/app1/server/todo_server.go</url>
-          <line>2</line>
-          <option name="timeStamp" value="25" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
