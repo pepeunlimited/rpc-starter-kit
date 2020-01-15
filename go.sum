@@ -12,6 +12,8 @@ github.com/facebookincubator/ent v0.0.0-20191215171026-58b53892756e h1:JUEdfMFed
 github.com/facebookincubator/ent v0.0.0-20191215171026-58b53892756e/go.mod h1:3CGvz1m+D78JUti7JFkY6AkKj88McWuT80UcamLqEJQ=
 github.com/facebookincubator/ent v0.0.0-20191217163758-5e9d13be9747 h1:gXmPRrI5YZbvL8ZdyF7aPc0ZsswM9oK6TxRBrBOqefk=
 github.com/facebookincubator/ent v0.0.0-20191217163758-5e9d13be9747/go.mod h1:3CGvz1m+D78JUti7JFkY6AkKj88McWuT80UcamLqEJQ=
+github.com/facebookincubator/ent v0.0.0-20200115103920-e016ca918c2c h1:7+l7FEyt5rxvjz5NCNGq+QEhxenD8xi0mRWkc5j+5+o=
+github.com/facebookincubator/ent v0.0.0-20200115103920-e016ca918c2c/go.mod h1:3CGvz1m+D78JUti7JFkY6AkKj88McWuT80UcamLqEJQ=
 github.com/go-bindata/go-bindata v1.0.1-0.20190711162640-ee3c2418e368/go.mod h1:7xCgX1lzlrXPHkfvn3EhumqHkmSlzt8at9q7v0ax19c=
 github.com/go-openapi/inflect v0.18.0/go.mod h1:lHpZVlpIQqLyKwJ4N+YSc9hchQy/i12fJykb83CRBH4=
 github.com/go-sql-driver/mysql v1.4.1-0.20190510102335-877a9775f068/go.mod h1:zAC/RDZ24gD3HViQzih4MyKcchzm+sOG5ZlKdlhCg5w=
@@ -48,6 +50,8 @@ github.com/pepeunlimited/microservice-kit v0.0.0-20191226184823-7c3f3b272353 h1:
 github.com/pepeunlimited/microservice-kit v0.0.0-20191226184823-7c3f3b272353/go.mod h1:J1oUwmuM7TbNNB1RKRGRQIv/LVSjz9br8D4FMGlb4zo=
 github.com/pepeunlimited/microservice-kit v0.0.0-20200101194341-7d7834523c0e h1:QQ250vmo/ctTdXFHYrNVoHtf6RRnt1FQ9nQlWec+A+Q=
 github.com/pepeunlimited/microservice-kit v0.0.0-20200101194341-7d7834523c0e/go.mod h1:ioKXg9wp47PIRCa8isEhMhCtMJT8PDv85G8x0pPadSg=
+github.com/pepeunlimited/microservice-kit v0.0.0-20200104135345-a4c82c1180ef h1:TSx5pbfZ3p62PyHxXG0hBPNrUrakqBn46epd59RjjCc=
+github.com/pepeunlimited/microservice-kit v0.0.0-20200104135345-a4c82c1180ef/go.mod h1:ioKXg9wp47PIRCa8isEhMhCtMJT8PDv85G8x0pPadSg=
 github.com/pkg/errors v0.8.1 h1:iURUrRGxPUNPdy5/HRSm+Yj6okJ6UtLINN0Q9M4+h3I=
 github.com/pkg/errors v0.8.1/go.mod h1:bwawxfHBFNV+L2hUp1rHADufV3IMtnDRdf1r5NINEl0=
 github.com/pmezard/go-difflib v1.0.0/go.mod h1:iKH77koFhYxTK1pcRnkKkqfTogsbg7gZNVY4sRDYZ/4=
