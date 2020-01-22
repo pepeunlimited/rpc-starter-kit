@@ -1,7 +1,7 @@
 syntax = "proto3";
 
 package pepeunlimited.todo;
-option go_package = "rpctodo";
+option go_package = "todorpc";
 
 import "google/protobuf/empty.proto";
 import "google/protobuf/wrappers.proto";

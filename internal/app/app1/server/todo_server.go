@@ -3,24 +3,24 @@ package server
 import (
 	"context"
 	"github.com/pepeunlimited/rpc-starter-kit/internal/app/app1/validator"
-	"github.com/pepeunlimited/rpc-starter-kit/rpctodo"
+	"github.com/pepeunlimited/rpc-starter-kit/todorpc"
 	"github.com/twitchtv/twirp"
 )
 
 type TodoServer struct {
-	todos map[int64]*rpctodo.Todo
+	todos map[int64]*todorpc.Todo
 	validator validator.TodoServerValidator
 }
 
-func (server TodoServer) UpdateTodo(ctx context.Context, params *rpctodo.UpdateTodoParams) (*rpctodo.Todo, error) {
+func (server TodoServer) UpdateTodo(ctx context.Context, params *todorpc.UpdateTodoParams) (*todorpc.Todo, error) {
 	return nil, nil
 }
 
-func (server TodoServer) DeleteTodo(ctx context.Context, params *rpctodo.DeleteTodoParams) (*rpctodo.Todo, error) {
+func (server TodoServer) DeleteTodo(ctx context.Context, params *todorpc.DeleteTodoParams) (*todorpc.Todo, error) {
 	return nil, nil
 }
 
-func (server TodoServer) GetTodo(ctx context.Context, params *rpctodo.GetTodoParams) (*rpctodo.Todo, error) {
+func (server TodoServer) GetTodo(ctx context.Context, params *todorpc.GetTodoParams) (*todorpc.Todo, error) {
 	if err := server.validator.GetTodo(params); err != nil {
 		return nil, err
 	}
@@ -31,7 +31,7 @@ func (server TodoServer) GetTodo(ctx context.Context, params *rpctodo.GetTodoPar
 	return todo, nil
 }
 
-func (server TodoServer) CreateTodo(ctx context.Context, params *rpctodo.CreateTodoParams) (*rpctodo.Todo, error) {
+func (server TodoServer) CreateTodo(ctx context.Context, params *todorpc.CreateTodoParams) (*todorpc.Todo, error) {
 	if err := server.validator.CreateTodo(params); err != nil {
 		return nil, err
 	}
@@ -40,7 +40,7 @@ func (server TodoServer) CreateTodo(ctx context.Context, params *rpctodo.CreateT
 }
 
 func NewTodoServer() TodoServer {
-	todos := make(map[int64]*rpctodo.Todo)
+	todos := make(map[int64]*todorpc.Todo)
 	return TodoServer{
 		todos: todos,
 		validator: validator.NewTodoServerValidator(),

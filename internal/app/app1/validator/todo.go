@@ -1,7 +1,7 @@
 package validator
 
 import (
-	"github.com/pepeunlimited/rpc-starter-kit/rpctodo"
+	"github.com/pepeunlimited/rpc-starter-kit/todorpc"
 )
 
 type TodoServerValidator struct {}
@@ -11,18 +11,18 @@ func NewTodoServerValidator() TodoServerValidator {
 	return TodoServerValidator{}
 }
 
-func (TodoServerValidator) CreateTodo(params *rpctodo.CreateTodoParams) error {
+func (TodoServerValidator) CreateTodo(params *todorpc.CreateTodoParams) error {
 	return nil
 }
 
-func (TodoServerValidator) GetTodo(params *rpctodo.GetTodoParams) error {
+func (TodoServerValidator) GetTodo(params *todorpc.GetTodoParams) error {
 	return nil
 }
 
-func (TodoServerValidator) UpdateTodo(params *rpctodo.UpdateTodoParams) error {
+func (TodoServerValidator) UpdateTodo(params *todorpc.UpdateTodoParams) error {
 	return nil
 }
 
-func (TodoServerValidator) DeleteTodo(params *rpctodo.DeleteTodoParams) error {
+func (TodoServerValidator) DeleteTodo(params *todorpc.DeleteTodoParams) error {
 	return nil
 }

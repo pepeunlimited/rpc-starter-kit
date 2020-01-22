@@ -2,14 +2,14 @@ package server
 
 import (
 	"context"
-	"github.com/pepeunlimited/rpc-starter-kit/rpctodo"
+	"github.com/pepeunlimited/rpc-starter-kit/todorpc"
 	"testing"
 	"time"
 )
 
 func TestTodoServer_CreateTodo(t *testing.T) {
 	server := NewTodoServer()
-	todo, err := server.CreateTodo(context.TODO(), &rpctodo.CreateTodoParams{Todo: &rpctodo.Todo{
+	todo, err := server.CreateTodo(context.TODO(), &todorpc.CreateTodoParams{Todo: &todorpc.Todo{
 		Name:      "HelloWorld!",
 		IsDone:    true,
 		CreatedAt: time.Now().UTC().Format(time.RFC3339),
