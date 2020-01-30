@@ -41,5 +41,11 @@ Speed up implementing the database access using [`ent`](https://github.com/faceb
 
 ```$ git config --global url."git@gitlab.com:".insteadOf "https://gitlab.com/"```  
 ```$ cat ~/.gitconfig```   
-```$ go env -w GOPRIVATE=gitlab.com/pepeunlimited/users```  
+```$ go env -w GOPRIVATE=gitlab.com/pepeunlimited/users```
+or  
+```$ vim ~/.bash_profile > export GOPRIVATE=gitlab.com/pepeunlimited/aa```
+
 ```$ go get xxx.com/pepeunlimited/users```
+
+[`build1`](https://itnext.io/building-docker-images-from-private-git-repositories-using-ssh-login-433edf5a18f2)  
+[`build2`](https://smartystreets.com/blog/2018/09/private-dependencies-in-docker-and-go/)
