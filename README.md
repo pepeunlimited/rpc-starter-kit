@@ -36,3 +36,10 @@ Speed up implementing the database access using [`ent`](https://github.com/faceb
 ##### Show MySQL's logs
 ```$ SET global general_log = 1;```  
 ```$ SHOW VARIABLES LIKE "general_log%";```
+
+##### `go get` private repo behind the authentication
+
+```$ git config --global url."git@gitlab.com:".insteadOf "https://gitlab.com/"```  
+```$ cat ~/.gitconfig```   
+```$ go env -w GOPRIVATE=gitlab.com/pepeunlimited/users```  
+```$ go get xxx.com/pepeunlimited/users```
