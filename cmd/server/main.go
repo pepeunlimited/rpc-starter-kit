@@ -3,20 +3,20 @@ package main
 import (
 	"github.com/pepeunlimited/microservice-kit/headers"
 	"github.com/pepeunlimited/microservice-kit/middleware"
-	"github.com/pepeunlimited/rpc-starter-kit/internal/app/app1/server"
-	"github.com/pepeunlimited/rpc-starter-kit/todorpc"
+	"github.com/pepeunlimited/rpc-starter-kit/internal/server/twirp"
+	"github.com/pepeunlimited/rpc-starter-kit/pkg/todorpc"
 	"log"
 	"net/http"
 )
 
 const (
-	Version = "0.1"
+	Version = "0.0.1"
 )
 
 func main() {
 	log.Printf("Starting the TodoServer... version=[%v]", Version)
 
-	ts := todorpc.NewTodoServiceServer(server.NewTodoServer(), nil)
+	ts := todorpc.NewTodoServiceServer(twirp.NewTodoServer(), nil)
 
 	mux := http.NewServeMux()
 	mux.Handle(ts.PathPrefix(), middleware.Adapt(ts, headers.Username()))

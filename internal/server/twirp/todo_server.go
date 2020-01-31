@@ -1,14 +1,14 @@
-package server
+package twirp
 
 import (
 	"context"
-	"github.com/pepeunlimited/rpc-starter-kit/internal/app/app1/validator"
-	"github.com/pepeunlimited/rpc-starter-kit/todorpc"
+	"github.com/pepeunlimited/rpc-starter-kit/internal/server/validator"
+	"github.com/pepeunlimited/rpc-starter-kit/pkg/todorpc"
 	"github.com/twitchtv/twirp"
 )
 
 type TodoServer struct {
-	todos map[int64]*todorpc.Todo
+	todos     map[int64]*todorpc.Todo
 	validator validator.TodoServerValidator
 }
 
@@ -42,7 +42,7 @@ func (server TodoServer) CreateTodo(ctx context.Context, params *todorpc.CreateT
 func NewTodoServer() TodoServer {
 	todos := make(map[int64]*todorpc.Todo)
 	return TodoServer{
-		todos: todos,
+		todos:     todos,
 		validator: validator.NewTodoServerValidator(),
 	}
 }

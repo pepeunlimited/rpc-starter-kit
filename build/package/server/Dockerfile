@@ -4,7 +4,7 @@
 FROM golang:1.13.4-alpine as build
 
 # Set the Current Working Directory inside the container
-WORKDIR $GOPATH/src/github.com/pepeunlimited/grpc-starter-kit
+WORKDIR $GOPATH/src/github.com/pepeunlimited/rpc-starter-kit
 
 # Copy everything from the current directory to the PWD(Present Working Directory) inside the container
 COPY . .
@@ -17,7 +17,7 @@ RUN go get -d -v ./...
 RUN go install -v ./...
 
 # Build the Go app
-RUN CGO_ENABLED=0 GOOS=linux go build -a -installsuffix cgo -o /go/bin/app1 ./cmd/app1/
+RUN CGO_ENABLED=0 GOOS=linux go build -a -installsuffix cgo -o /go/bin/server ./cmd/server/
 ###############################################
 ######## Start a new stage from scratch #######
 ###############################################
@@ -27,7 +27,7 @@ LABEL description="Show case of the using docker hub."
 # This is intended to be run from the hooks/build script, which sets this
 # appropriately based on git tags.
 ARG version
-LABEL com.pepeunlimited.grpcstarterkit.version=$version
+LABEL com.pepeunlimited.rpcstarterkit.version=$version
 
 # Add Maintainer Info
 LABEL maintainer="Simo Ala-Kotila <simo.alakotila@gmail.com>"
@@ -36,11 +36,10 @@ RUN apk --no-cache add ca-certificates
 WORKDIR /root/
 
 # Copy the Pre-built binary file from the previous stage
-COPY --from=build /go/bin/app1 .
+COPY --from=build /go/bin/server .
 
 # This container exposes port 8080 to the outside world
 EXPOSE 8080
 
 # Run the executable
-CMD ./app1
-#CMD ["./app1"]
+CMD ./server

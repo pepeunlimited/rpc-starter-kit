@@ -1,8 +1,8 @@
-package server
+package twirp
 
 import (
 	"context"
-	"github.com/pepeunlimited/rpc-starter-kit/todorpc"
+	"github.com/pepeunlimited/rpc-starter-kit/pkg/todorpc"
 	"testing"
 	"time"
 )
