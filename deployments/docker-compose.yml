@@ -12,11 +12,3 @@ services:
     volumes:
       - ../init/mysql/conf.d:/etc/mysql/conf.d:ro
       - ../init/mysql/initdb.d:/docker-entrypoint-initdb.d:ro
-  # NATS
-  nats:
-    hostname: nats
-    image: "nats:2.1.0"
-    ports:
-      - "4222:4222"
-      - "6222:6222"
-      - "8222:8222"
