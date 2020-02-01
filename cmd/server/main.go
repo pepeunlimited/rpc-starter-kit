@@ -13,6 +13,10 @@ const (
 	Version = "0.0.1"
 )
 
+func init() {
+	log.SetFlags(log.LstdFlags | log.Lshortfile)
+}
+
 func main() {
 	log.Printf("Starting the TodoServer... version=[%v]", Version)
 
