@@ -49,3 +49,10 @@ or
 
 [`build1`](https://itnext.io/building-docker-images-from-private-git-repositories-using-ssh-login-433edf5a18f2)  
 [`build2`](https://smartystreets.com/blog/2018/09/private-dependencies-in-docker-and-go/)
+
+##### Change origin
+
+1. ```$ git remote set-url origin git@bitbucket.org:siimooo/go-starter-kit-k8.git```
+2. ```$ git push --set-upstream origin master```
+3. ```$ git tag -l | xargs -n 1 git push --delete origin```
+4. ```$ git tag | xargs git tag -d```
