@@ -4,7 +4,7 @@ import (
 	"github.com/pepeunlimited/microservice-kit/headers"
 	"github.com/pepeunlimited/microservice-kit/middleware"
 	"github.com/pepeunlimited/rpc-starter-kit/internal/server/twirp"
-	"github.com/pepeunlimited/rpc-starter-kit/pkg/todorpc"
+	"github.com/pepeunlimited/rpc-starter-kit/pkg/rpc/todo"
 	"log"
 	"net/http"
 )
@@ -20,7 +20,7 @@ func init() {
 func main() {
 	log.Printf("Starting the TodoServer... version=[%v]", Version)
 
-	ts := todorpc.NewTodoServiceServer(twirp.NewTodoServer(), nil)
+	ts := todo.NewTodoServiceServer(twirp.NewTodoServer(), nil)
 
 	mux := http.NewServeMux()
 	mux.Handle(ts.PathPrefix(), middleware.Adapt(ts, headers.Username()))
